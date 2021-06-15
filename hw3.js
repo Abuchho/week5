@@ -24,12 +24,11 @@ for(var i=99; i>0; i--){
 var boolz = ['true', 'true', 'false', 'true', 'false', 'true', 'true', 'true'];
 
 
-
 for(var i = 0; i< boolz.length; i++){
     if(i == true){
-        console.log(i)
+        console.log(i);
+    } 
     }        
-}
 
 //9-10
 
@@ -37,7 +36,7 @@ var str = 'apples';
 
 for (var i = 0; i< str.length; i++) {
     if(i == 'a' || 'e'){
-        console.log(i);
+        console.log(str[i]);
     }
 
 }
