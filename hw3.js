@@ -21,21 +21,21 @@ for(var i=99; i>0; i--){
 
 //7-8
 
-var boolz = ['true', 'true', 'false', 'true', 'false', 'true', 'true', 'true'];
+var boolz = [true, true, false, true, false, true, true, true];
 
-
+console.log('this is broken');
 for(var i = 0; i< boolz.length; i++){
-    if(i == true){
-        console.log(i);
+    if(boolz[i] == true){
+        console.log(boolz[i]);
     } 
     }        
 
-//9-10
+// //9-10
 
 var str = 'apples';
 
 for (var i = 0; i< str.length; i++) {
-    if(i == 'a' || 'e'){
+    if(str[i] == 'a' || str[i] == 'e'){
         console.log(str[i]);
     }
 
